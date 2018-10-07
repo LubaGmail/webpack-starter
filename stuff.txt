@@ -74,7 +74,8 @@ GIT Remote
 GIT Update
 ----------
     git status
-    git remote -u origin master
+    git commit .
+    git push -u origin master
     
 
 
