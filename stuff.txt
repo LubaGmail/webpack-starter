@@ -71,8 +71,12 @@ GIT Remote
 
     git remote --help
 
-
+GIT Update
+----------
+    git status
+    git remote -u origin master
     
+
 
 
 
