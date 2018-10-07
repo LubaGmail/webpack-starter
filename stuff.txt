@@ -1,0 +1,88 @@
+WEBPACK REACT
+
+tut:
+    https://www.valentinog.com/blog/react-webpack-babel/
+
+Project
+    mkdir webpack-starter 
+    cd webpack-starter
+    mkdir src
+    npm init -y
+    touch .babelrc
+
+Install packages
+    npm i --save-dev webpack 
+                    webpack-cli
+                    webpack-dev-server
+                    
+                    @babel/core
+                    babel-loader
+                    @babel/preset-env
+                    babel/preset-
+                    
+                    html-webpack-plugin
+                    html-loader
+
+                    react
+                    react-dom
+
+npm -i --save-dev babel-plugin-transform-class-properties  
+
+
+npm run build 
+npm starter
+
+What are they  for?
+-------------------
+    babel-preset-env                es6 -> es5
+    babel-present-react             jsx -> jsx
+
+    presentation components         stateless
+        controlled component
+    container components            statefull
+
+
+GIT Local
+---------
+    touch .gitignore
+        /node_modules
+        /build
+        /dist
+    
+    git init .
+    
+    git reset       --cancel adds
+    git status
+
+    git add .
+    git status
+
+    git commit .
+        vim # :wq
+    git status
+
+GIT Remote
+----------
+    https://github.com/LubaGmail?tab=repositories  -> New -> webpack-starter
+
+    git remote add origin https://github.com/LubaGmail/webpack-starter.git
+
+    git push -u origin master
+
+    git remote --help
+
+
+    
+
+
+
+
+
+
+    
+
+    
+    
+    
+
+    
